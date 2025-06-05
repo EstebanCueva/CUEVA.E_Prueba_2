@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CUEVA.E_Prueba_2.Jokes_Api"
+             Title="Jokes_Api">
+    <AbsoluteLayout>
+        <Label
+            Text="JOKE"
+            TextColor="MediumPurple"
+            Style="{StaticResource Headline}"
+            SemanticProperties.HeadingLevel="Level1"
+            AbsoluteLayout.LayoutBounds="0.5, 0, -1, -1"
+            AbsoluteLayout.LayoutFlags="PositionProportional" />
+        
+        <Label x:Name="Chiste"
+               FontSize="20"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               HorizontalTextAlignment="Center"
+               AbsoluteLayout.LayoutBounds="0.5, 0.4, 0.9, 0.5"
+               AbsoluteLayout.LayoutFlags="All" />
+
+        <Button Text="Otro chiste"
+                Clicked="OnOtroChisteClicked"
+                AbsoluteLayout.LayoutBounds="0.5,1,1,60"
+                AbsoluteLayout.LayoutFlags="WidthProportional,PositionProportional"
+                BackgroundColor="#ab90b9"
+                TextColor="Black"
+                FontAttributes="Bold"
+                FontSize="25"/>
+    </AbsoluteLayout>
+</ContentPage>
