@@ -25,7 +25,7 @@
                 AbsoluteLayout.LayoutBounds="0.5,1,1,60"
                 AbsoluteLayout.LayoutFlags="WidthProportional,PositionProportional"
                 BackgroundColor="#ab90b9"
-                TextColor="Black"
+                TextColor="White"
                 FontAttributes="Bold"
                 FontSize="25"/>
     </AbsoluteLayout>
