@@ -7,12 +7,17 @@
 
 
         <VerticalStackLayout
-            Padding="30,0"
-            Spacing="20">
+            Padding="25,0"
+            Spacing="15">
 
             <Label
-                Text="Bienvenidos a mi aplicacion ESTEBAN CUEVA " TextColor="MediumPurple" TextDecorations="Underline"
+                Text="Bienvenidos a mi aplicacion" TextColor="MediumPurple" 
                 Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+            <Label
+                Text="Creador: Esteban Cueva" TextColor="MediumPurple" 
+                FontSize="20"
+                HorizontalOptions="Center"
                 SemanticProperties.HeadingLevel="Level1" />
             <Image
                 Source="dragon.png"
@@ -25,7 +30,7 @@
                 Text="Chistes"
                 Clicked="Chistes_Clicked"
                 BackgroundColor="#ab90b9"
-                TextColor="Black"
+                TextColor="White"
                 FontAttributes="Bold"
                 FontSize="25"
                 
@@ -35,7 +40,7 @@
                 Text="About"
                 Clicked="About_Clicked"
                 BackgroundColor="#ab90b9"
-                TextColor="Black"
+                TextColor="White"
                 FontAttributes="Bold"
                 FontSize="25"
                 
