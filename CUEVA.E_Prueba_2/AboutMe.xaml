@@ -12,52 +12,52 @@
 
         <Frame Grid.Row="0" Grid.Column="0"
                    BackgroundColor="White"
-                   BorderColor="Black"
+                   BorderColor="Purple"
                    CornerRadius="16"
                    Padding="15"
                    HasShadow="True">
             <StackLayout>
-                <Label Text="NOMBRE:" FontAttributes="Bold" FontSize="16" TextColor="Black"/>
+                <Label Text="NOMBRE:" FontAttributes="Bold" FontSize="16" TextColor="#ab90b9"/>
                 <Label Text="Esteban Cueva" FontSize="16" TextColor="Black"/>
             </StackLayout>
         </Frame>
 
         <Frame Grid.Row="0" Grid.Column="1"
                    BackgroundColor="White"
-                   BorderColor="Black"
+                   BorderColor="Purple"
                    CornerRadius="16"
                    Padding="15"
                    HasShadow="True">
             <StackLayout>
-                <Label Text="FECHA DE NACIMIENTO:" FontAttributes="Bold" FontSize="16" TextColor="Black"/>
+                <Label Text="FECHA DE NACIMIENTO:" FontAttributes="Bold" FontSize="16" TextColor="#ab90b9"/>
                 <Label Text="03/13/2004" FontSize="16" TextColor="Black"/>
             </StackLayout>
         </Frame>
 
         <Frame Grid.Row="1" Grid.Column="0"
                    BackgroundColor="White"
-                   BorderColor="Black"
+                   BorderColor="Purple"
                    CornerRadius="16"
                    Padding="15"
                    HasShadow="True">
             <StackLayout>
-                <Label Text="INTERESES:" FontAttributes="Bold" FontSize="16" TextColor="Black"/>
-                <Label Text="Piano" FontSize="12" TextColor="Black"/>
-                <Label Text="Competencia de Automoviles" FontSize="12" TextColor="Black"/>
-                <Label Text="Manejar" FontSize="12" TextColor="Black"/>
-                <Label Text="Videojuegos" FontSize="12" TextColor="Black"/>
-                <Label Text="Programar" FontSize="12" TextColor="Black"/>
+                <Label Text="INTERESES:" FontAttributes="Bold" FontSize="16" TextColor="#ab90b9"/>
+                <Label Text="Piano" FontSize="13" TextColor="Black"/>
+                <Label Text="Competencia de Automoviles" FontSize="13" TextColor="Black"/>
+                <Label Text="Manejar" FontSize="13" TextColor="Black"/>
+                <Label Text="Videojuegos" FontSize="13" TextColor="Black"/>
+                <Label Text="Programar" FontSize="13" TextColor="Black"/>
             </StackLayout>
         </Frame>
 
         <Frame Grid.Row="1" Grid.Column="1"
                    BackgroundColor="White"
-                   BorderColor="Black"
+                   BorderColor="Purple"
                    CornerRadius="16"
                    Padding="15"
                    HasShadow="True">
             <StackLayout>
-                <Label Text="VERSION APP:" FontAttributes="Bold" FontSize="16" TextColor="Black"/>
+                <Label Text="VERSION APP:" FontAttributes="Bold" FontSize="16" TextColor="#ab90b9"/>
                 <Label Text="1.0" FontSize="16" TextColor="Black"/>
             </StackLayout>
         </Frame>
